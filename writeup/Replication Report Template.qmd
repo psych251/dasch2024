@@ -12,7 +12,17 @@ format:
 
 ## Introduction
 
-[No abstract is needed.]  Each replication project will have a straightforward, no frills report of the study and results.  These reports will be publicly available as supplementary material for the aggregate report(s) of the project as a whole.  Also, to maximize project integrity, the intro and methods will be written and critiqued in advance of data collection.  Introductions can be just 1-2 paragraphs clarifying the main idea of the original study, the target finding for replication, and any other essential information.  It will NOT have a literature review -- that is in the original publication. You can write both the introduction and the methods in past tense.  
+Within social movement scholarship, a radical flank effect (RFE) is the influence of activists with more extreme ideologies and tactics on a movement, particularly on how the public perceives it. Evidence is mixed as to whether the presence of radical flanks increases or decreases public support. Dasch et al. (2024) used an experimental approach to clarify this relationship, and found across two studies in the UK and US that radical flanks can increase support for moderate groups and decrease support for radical ones. However, in the US study, the increase in support for moderates did not reach the level of statistical significance. Dasch et al. (2024, p. 24) speculate that the "lack of significance may be due to insufficient statistical power," and not a fundamental difference between the US and UK contexts. I plan to replicate the US study to further test the effect of radical flanks on support for moderate groups in the US, and confirm their other findings.
+
+Dasch et al. (2024) provide an [online supplement](https://osf.io/z5d4s/), which contains thorough documentation of their procedures, Qualtrics surveys, data, and code. Additionally, they [pre-registered their study](https://osf.io/z5d4s/registrations). All of these factors increase the likelihood of successful replication.
+
+To replicate experiment 2, I will recruit around 500 participants through Prolific. These participants will be given a Qualtrics survey, where they will read a fake news story about two activist groups protesting and then answer questions. Participants will be randomly assigned to either a nonviolent, violent, or radical flank version of the story. The primary outcome measures will be support for moderates and radicals. Given Dasch et al.'s (2024) concern about statistical power, a challenge will be to recruit a sufficient number of participants, as my budget is limited.
+
+[My Repo](https://github.com/psych251/dasch2024).
+
+[Original Paper](https://github.com/psych251/dasch2024/blob/main/original_paper/11121-Article%20Text-119987-2-10-20240429.pdf).
+
+\[No abstract is needed.\] Each replication project will have a straightforward, no frills report of the study and results. These reports will be publicly available as supplementary material for the aggregate report(s) of the project as a whole. Also, to maximize project integrity, the intro and methods will be written and critiqued in advance of data collection. Introductions can be just 1-2 paragraphs clarifying the main idea of the original study, the target finding for replication, and any other essential information. It will NOT have a literature review -- that is in the original publication. You can write both the introduction and the methods in past tense.
 
 
 ## Methods
