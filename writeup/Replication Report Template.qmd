@@ -1,6 +1,6 @@
 ---
-title: "Replication of Study X by Sample & Sample (20xx, Psychological Science)"
-author: "Replication Author[s] (contact information)"
+title: "Replication of The Radical Flank: Curse or Blessing of a Social Movement? by Dasch et al. (2024, Global Environmental Psychology)"
+author: "Sebastian Kane (smkane@stanford.edu)"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 format:
   html:
@@ -12,7 +12,7 @@ format:
 
 ## Introduction
 
-Within social movement scholarship, a radical flank effect (RFE) is the influence of activists with more extreme ideologies and tactics on a movement, particularly on how the public perceives it. Evidence is mixed as to whether the presence of radical flanks increases or decreases public support. Dasch et al. (2024) used an experimental approach to clarify this relationship, and found across two studies in the UK and US that radical flanks can increase support for moderate groups and decrease support for radical ones. However, in the US study, the increase in support for moderates did not reach the level of statistical significance. Dasch et al. (2024, p. 24) speculate that the "lack of significance may be due to insufficient statistical power," and not a fundamental difference between the US and UK contexts. I plan to replicate the US study to further test the effect of radical flanks on support for moderate groups in the US, and confirm their other findings.
+Within social movement scholarship, a radical flank effect (RFE) is the influence of activists with more extreme ideologies and tactics on a movement, particularly on how the public perceives it. Evidence is mixed as to whether the presence of radical flanks increases or decreases public support. Dasch et al. (2024) used an experimental approach to clarify this relationship, and found across two studies in the UK and US that radical flanks can increase support for moderate groups and decrease support for radical ones. However, in the US study, the increase in support for moderates did not reach the level of statistical significance. Dasch et al. (2024, p. 24) speculate that the "lack of significance may be due to insufficient statistical power," and not a fundamental difference between the US and UK contexts. I plan to replicate the US study to further test the effect of radical flanks on support for moderate groups in the US, and confirm their other findings. This project complements my prior research on the effects of collective action tactics but takes a more psychological rather than sociological approach.
 
 Dasch et al. (2024) provide an [online supplement](https://osf.io/z5d4s/), which contains thorough documentation of their procedures, Qualtrics surveys, data, and code. Additionally, they [pre-registered their study](https://osf.io/z5d4s/registrations). All of these factors increase the likelihood of successful replication.
 
@@ -22,83 +22,208 @@ To replicate experiment 2, I will recruit around 500 participants through Prolif
 
 [Original Paper](https://github.com/psych251/dasch2024/blob/main/original_paper/11121-Article%20Text-119987-2-10-20240429.pdf).
 
-\[No abstract is needed.\] Each replication project will have a straightforward, no frills report of the study and results. These reports will be publicly available as supplementary material for the aggregate report(s) of the project as a whole. Also, to maximize project integrity, the intro and methods will be written and critiqued in advance of data collection. Introductions can be just 1-2 paragraphs clarifying the main idea of the original study, the target finding for replication, and any other essential information. It will NOT have a literature review -- that is in the original publication. You can write both the introduction and the methods in past tense.
+[Paradigm](https://stanforduniversity.qualtrics.com/jfe/preview/previewId/e350dd78-bdb8-4d8f-8291-1678e2c8c03b/SV_efdRKW5DRLB4BRc?Q_CHL=preview&Q_SurveyVersionID=current).
 
+[Pilot Data](https://github.com/psych251/dasch2024/tree/029e19324f925cbeb9dd7f5cf378c404dc05257d/data).
+
+\[No abstract is needed.\] Each replication project will have a straightforward, no frills report of the study and results. These reports will be publicly available as supplementary material for the aggregate report(s) of the project as a whole. Also, to maximize project integrity, the intro and methods will be written and critiqued in advance of data collection. Introductions can be just 1-2 paragraphs clarifying the main idea of the original study, the target finding for replication, and any other essential information. It will NOT have a literature review -- that is in the original publication. You can write both the introduction and the methods in past tense.
 
 ## Methods
 
 ### Power Analysis
 
-Original effect size, power analysis for samples to achieve 80%, 90%, 95% power to detect that effect size.  Considerations of feasibility for selecting planned sample size.
+The effect size for the main effect of reading about a violent flank group and to a non-violent main group compared to two peaceful groups was $d=0.16$ in the US study. For comparison, the UK study had a main effect size of $d = 0.50$. To achieve 80% power to detect the effect size in the US study, I would need 615 participants per group (822 participants for 90% power and 1,017 participants for 95% power). These samples are fairly large. Given budgetary constraints, I would ideally used a sample of 1,230 participants for 80% power, though I at present do not know if this is feasible.
+
+Original effect size, power analysis for samples to achieve 80%, 90%, 95% power to detect that effect size. Considerations of feasibility for selecting planned sample size.
 
 ### Planned Sample
+
+I tentatively plan on recruiting 1,230 participants through Prolific. I will restrict my sample to American residents.
 
 Planned sample size and/or termination rule, sampling frame, known demographics if any, preselection rules if any.
 
 ### Materials
 
-All materials - can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article.
+Dasch et al. (2024) provide the following overview of their materials:
 
-### Procedure	
+> In all three conditions, participants read a different newspaper article about a social movement in the US, specifically Uintah County, protesting for a ban on fracking. In each article, the movement split up due to unspecified tactical disagreements and divided into two subgroups, namely *main group (Green Uintah)* and *flank group (Stop Fracking)*. After a brief introduction to the conflict, both groups are introduced, each performing three acts of protest.
+>
+> In the nonviolent condition (*n* = 149), the activists of *the nonviolent main group* organized a peaceful demonstration, wore protest t-shirts during a speech by the mayor, and hung anti-fracking banners in front of local fracking companies. *The nonviolent flank group* also organized a demonstration, held a gathering in front of the mayor’s house and led a march to a fracking construction site. In contrast, in the violent condition (*n* = 150), *the violent main group* organized a demonstration that escalated into a riot, disrupted a speech by the mayor by throwing objects, and burned down two cars of a local fracking company. *The violent flank group’s* demonstration also escalated into a violent riot, they vandalized the mayor’s house, and destroyed company property at a fracking construction site. Finally, in the radical flank condition (*n* = 156), *the moderate group* was nonviolent and *the radical flank* violent. The description of *the moderate group* was identical to the text of *the nonviolent main group* in the nonviolent condition. And the text of the *radical flank* was identical to the description of the *violent flank group* in the violent condition.
 
-Can quote directly from original article - just put the text in quotations and note that this was followed precisely.  Or, quote directly and just point out exceptions to what was described in the original article.
+I will use the same materials. However, I will only use two of the conditions—the nonviolent main and flank group condition and the nonviolent main and violent flank group condition—to maximize power.
+
+All materials - can quote directly from original article - just put the text in quotations and note that this was followed precisely. Or, quote directly and just point out exceptions to what was described in the original article.
+
+### Procedure
+
+I will follow Dasch et al.'s (2024) procedure:
+
+> Following the article and the reading comprehension checks, participants answered several questions about their perceptions of the overall movement and the two groups separately. Furthermore, participants completed measures about their general attitudes, some exploratory measures, and a demographic survey^[5](https://gep.psychopen.eu/index.php/gep/article/download/11121/11121.html?inline=1#fn5)^.
+
+Can quote directly from original article - just put the text in quotations and note that this was followed precisely. Or, quote directly and just point out exceptions to what was described in the original article.
 
 ### Analysis Plan
 
-Can also quote directly, though it is less often spelled out effectively for an analysis strategy section.  The key is to report an analysis strategy that is as close to the original - data cleaning rules, data exclusion rules, covariates, etc. - as possible.  
+I will use the following measures reported by Dasch et al. (2024):
 
-**Clarify key analysis of interest here**  You can also pre-specify additional analyses you plan to do.
+**Manipulation Checks**
+
+> In total, four items were used, asking about the perception of *the main group (Green Uintah)* and *the flank group (Stop Fracking)* separately.
+
+**Identification With the Protesters**
+
+> Participants rated their agreement and disagreement with the three statements for *the main group* (α = .95), and *the flank group* (α = .96).
+
+**Support for the Movement**
+
+> We used the same items as in Study 1. Participants indicated the extent of their support for *the main group*, and *the flank group*.
+
+**Sympathy for the Movement’s Cause**
+
+> We operationalized sympathy for the movement’s cause with four items from the New Environmental Paradigm scale ([Dunlap et al., 2000](https://gep.psychopen.eu/index.php/gep/article/download/11121/11121.html?inline=1#r13)). The identical four items (α = .88) have already been used in [Schmitt and colleagues (2019)](https://gep.psychopen.eu/index.php/gep/article/download/11121/11121.html?inline=1#r38) (e.g., “Over-consumption is posing a serious risk to humankind and life on planet earth”).
+
+**Demographic Questionnaire**
+
+> Participants completed a demographic survey including items about age, gender, political ideology, and employment.
+
+Like Dasch et al. (2024), I will exclude participants who spend less than 15 seconds on the treatment or who report that they do not consent to the study. I will also drop participants who do not answer the key survey questions.
+
+I will compute Cohen's d to test if support for the main group and flank group systematically very across conditions. I will also use OLS regression to analyze if sympathy for the overall movement moderates these support and identification with the main group.
+
+Can also quote directly, though it is less often spelled out effectively for an analysis strategy section. The key is to report an analysis strategy that is as close to the original - data cleaning rules, data exclusion rules, covariates, etc. - as possible.
+
+**Clarify key analysis of interest here** You can also pre-specify additional analyses you plan to do.
 
 ### Differences from Original Study
 
-Explicitly describe known differences in sample, setting, procedure, and analysis plan from original study.  The goal, of course, is to minimize those differences, but differences will inevitably occur.  Also, note whether such differences are anticipated to make a difference based on claims in the original article or subsequent published research on the conditions for obtaining the effect.
+Explicitly describe known differences in sample, setting, procedure, and analysis plan from original study. The goal, of course, is to minimize those differences, but differences will inevitably occur. Also, note whether such differences are anticipated to make a difference based on claims in the original article or subsequent published research on the conditions for obtaining the effect.
+
+-   My survey will be conducted through Prolific not MTurk.
+
+-   I am dropping the violent main group violent flank condition.
+
+-   I am dropping the Instructional Manipulation Checks in favor of a comprehension check.
+
+-   I have sightly adjusted phrasing in the conditions for grammatical reasons.
 
 ### Methods Addendum (Post Data Collection)
 
 You can comment this section out prior to final report with data collection.
 
 #### Actual Sample
-  Sample size, demographics, data exclusions based on rules spelled out in analysis plan
+
+Sample size, demographics, data exclusions based on rules spelled out in analysis plan
 
 #### Differences from pre-data collection methods plan
-  Any differences from what was described as the original plan, or “none”.
 
+Any differences from what was described as the original plan, or “none”.
 
 ## Results
-
 
 ### Data preparation
 
 Data preparation following the analysis plan.
-	
-```{r include=F}
-### Data Preparation
 
-#### Load Relevant Libraries and Functions
-
-#### Import data
-
-#### Data exclusion / filtering
-
-#### Prepare data for analysis - create columns etc.
+```{r}
+# library(tidyverse)
+# library(broom)
+# library(GGally)
+# library(psych)
+# 
+# #### Load Relevant Libraries and Functions
+# 
+# #### Import data
+# d <- read_csv("data/PilotA values.csv")
+# demos <- read_csv("data/PilotA text demos.csv")
+# 
+# 
+# ### Data Preparation
+# names(demos)
+# 
+# demos <- demos[c("ResponseId", "gender",	"race", "employment", "marriage",	"education",	"relig_group", "relig_identity", "party", "income", "polit_ideology", "party_identification", "2020_election", "2024_election", "state")]
+# 
+# n <- names(demos)
+# for (i in 2:length(n)) {
+#     n[i] = paste0(n[i], "_labeled")
+# }
+# print(n)
+# names(demos) <- n
+# 
+# d <- dplyr::left_join(d, demos, by = "ResponseId")
+# 
+# rm(demos, i, n)
+# names(d)[names(d)=="Duration..in.seconds."] <- "Duration"
+# 
+# #### Data exclusion / filtering
+# 
+# #remove participants who declined consent
+# d = subset (d,consent == 1)
+# 
+# # remove participants who spent less than 15 seconds on treatment
+# d <- d |>
+#   filter((condition == 0 & `nv_text_timing_Page Submit` < 15) |
+#            (condition == 1 & `rad_text_timing_Page Submit` < 15))
+# 
+# nonviolent <- d |> filter(condition == 0)
+# radicalflank <- d |> filter(condition == 1)
+# 
+# 
+# ## The code below doesn't currently work after the exclusion step because my sample for this pilot becomes to small, but it works if you don't exclude.
+# 
+# 
+# 
+# ## Green Uintah (Main Group) manipulation checks
+# 
+# summary(aov(`manipulation_check#2_1`~condition,d))
+# pairwise.t.test(d$`manipulation_check#2_1`, d$condition, p.adj = "none")
+# 
+# # cohen's d
+# cohen.d(nonviolent$`manipulation_check#2_1`, radicalflank$`manipulation_check#2_1`)
+# 
+# ## Stop Fracking (Flank Group) manipulation checks
+# 
+# summary(aov(`manipulation_check#3_1`~condition,d))
+# pairwise.t.test(d$`manipulation_check#3_1`, d$condition, p.adj = "none")
+# 
+# # cohen's d
+# cohen.d(nonviolent$`manipulation_check#3_1`, radicalflank$`manipulation_check#3_1`)
+# 
+# 
+# 
+# # cohen's d Support Movement main group - Green Uintah
+# cohen.d(nonviolent$`dv_support_action#2_3`, radicalflank$`dv_support_action#2_3`)
+# 
+# # cohen's d Support Movement flank group - Stop Fracking
+# cohen.d(nonviolent$`dv_support_action#3_3`, radicalflank$`dv_support_action#3_3`)
+# 
+# 
+# # H1a: Testing Hypothesis 1a: The presence of the radical flank changes the support for the moderate body for those who are sympathizers.
+# 
+# model <- lm(`dv_support_action#2_3` ~  condition*sympathy_1, data = d)
+# summary(model)
+# 
+# # H2a: Testing Hypothesis 2a: The presence of the radical flank changes the identification with the moderate body for those who are sympathizers.
+# 
+# model2 <- lm(`identification#1_2` ~  condition*sympathy_1, data = d)
+# summary(model2)
 ```
 
 ### Confirmatory analysis
 
-The analyses as specified in the analysis plan.  
+The analyses as specified in the analysis plan.
 
 *Side-by-side graph with original graph is ideal here*
 
 ### Exploratory analyses
 
-Any follow-up analyses desired (not required).  
+Any follow-up analyses desired (not required).
 
 ## Discussion
 
 ### Summary of Replication Attempt
 
-Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.  
+Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.
 
 ### Commentary
 
-Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt.  None of these need to be long.
+Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt. None of these need to be long.
