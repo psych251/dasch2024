@@ -24,6 +24,8 @@ Links:
 
 -   [Paradigm](https://stanforduniversity.qualtrics.com/jfe/preview/previewId/e350dd78-bdb8-4d8f-8291-1678e2c8c03b/SV_efdRKW5DRLB4BRc?Q_CHL=preview&Q_SurveyVersionID=current)
 
+-   [Preregistration](https://osf.io/ujsyx/overview)
+
 ## Methods
 
 ### Power Analysis
