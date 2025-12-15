@@ -8,33 +8,31 @@ format:
     toc_depth: 3
 ---
 
-<!-- Replication reports should all use this template to standardize reporting across projects.  These reports will be public supplementary materials that accompany the summary report(s) of the aggregate results. -->
-
 ## Introduction
 
-Within social movement scholarship, a radical flank effect (RFE) is the influence of activists with more extreme ideologies and tactics on a movement, particularly on how the public perceives it. Evidence is mixed as to whether the presence of radical flanks increases or decreases public support. Dasch et al. (2024) used an experimental approach to clarify this relationship, and found across two studies that radical flanks can increase support for moderate groups and decrease support for radical ones. I plan to replicate the first study to further test the effect of radical flanks on support for moderate groups, and confirm their other findings. This project complements my prior research on the effects of collective action tactics but takes a more psychological rather than sociological approach.
+Within social movement scholarship, a radical flank effect (RFE) is the influence of activists with more extreme ideologies and tactics on a movement, particularly on how the public perceives it. Evidence is mixed as to whether the presence of radical flanks increases or decreases public support. Dasch et al. (2024) used an experimental approach to clarify this relationship and found across two studies that radical flanks can increase support for moderate groups and decrease support for radical ones. I plan to replicate the first study to further test the effect of radical flanks on support for moderate groups and confirm their other findings. This project complements my prior research on the effects of collective action tactics but takes a more psychological rather than sociological approach.
 
 Dasch et al. (2024) provide an [online supplement](https://osf.io/z5d4s/), which contains thorough documentation of their procedures, Qualtrics surveys, data, and code. Additionally, they [pre-registered their study](https://osf.io/z5d4s/registrations). All of these factors increase the likelihood of successful replication.
 
-To replicate experiment 1, I will recruit around 130 participants through Prolific. These participants will be given a Qualtrics survey, where they will read a fake news story about two activist groups protesting and then answer questions. Participants will be randomly assigned to either a nonviolent or radical flank version of the story. The primary outcome measures will be support for the moderates group.
+To replicate experiment 1, I will recruit around 130 participants through Prolific. These participants will be given a Qualtrics survey in which they will read a fictional news story about two activist groups protesting, then answer questions. Participants will be randomly assigned to either a nonviolent or radical flank version of the story. The primary outcome measure will be support for the moderate group.
 
-[My Repo](https://github.com/psych251/dasch2024).
+Links:
 
-[Original Paper](https://github.com/psych251/dasch2024/blob/main/original_paper/11121-Article%20Text-119987-2-10-20240429.pdf).
+-   [My Repo](https://github.com/psych251/dasch2024)
 
-[Paradigm](https://stanforduniversity.qualtrics.com/jfe/preview/previewId/e350dd78-bdb8-4d8f-8291-1678e2c8c03b/SV_efdRKW5DRLB4BRc?Q_CHL=preview&Q_SurveyVersionID=current).
+-   [Original Paper](https://github.com/psych251/dasch2024/blob/main/original_paper/11121-Article%20Text-119987-2-10-20240429.pdf)
 
-[Pilot Data](https://github.com/psych251/dasch2024/tree/029e19324f925cbeb9dd7f5cf378c404dc05257d/data).
+-   [Paradigm](https://stanforduniversity.qualtrics.com/jfe/preview/previewId/e350dd78-bdb8-4d8f-8291-1678e2c8c03b/SV_efdRKW5DRLB4BRc?Q_CHL=preview&Q_SurveyVersionID=current)
 
 ## Methods
 
 ### Power Analysis
 
-The effect size for the main effect of reading about a violent flank group and to a non-violent main group compared to two peaceful groups was $d=0.50$ in the first study. To achieve 80% power to detect this effect, I would need 128 participants in total (172 participants for 90% power and 210 participants for 95% power).
+The size for the main effect of reading about a violent flank group and a non-violent main group compared to two peaceful groups was $d=0.50$ in the first study. To achieve 80% power to detect this effect, I would need 128 participants in total (172 participants for 90% power and 210 participants for 95% power).
 
 ### Planned Sample
 
-Given budgetary constraints, I will use a recruit a sample of 130 participants. In line with the original study, I will restrict my sample to UK residents.
+Given budgetary constraints, I will recruit a sample of 130 participants, with the expectation that I may lose a couple when I exclude invalid responses. In line with the original study, I will restrict my sample to US residents.
 
 ### Materials
 
@@ -58,19 +56,19 @@ I will use the following measures reported by Dasch et al. (2024):
 
 **Manipulation Checks**
 
-> We measured perceived extremity by asking participants to rate their perception of radicality and violence of the social movements (e.g., “PlanetVeg are radical/violent”).
+> We measured perceived extremity by asking participants to rate their perception of radicality and violence of the social movements (e.g., “PlanetVeg are radical/violent” ... ; “SuperGreens are radical/violent” ... ). All measures in this study used a scale from 1 = *Strongly Disagree* to 7 = *Strongly Agree* if not noted otherwise
 
 **Identification With the Protesters**
 
-> Participants rated their agreement with these three statements for the *main group* ... and the *flank group* ... separately.
+> We adapted three items from Simpson and colleagues (2018) to measure identification with the protesters (e.g., “I feel similar to the protesters”). Participants rated their agreement with these three statements for the *main group* ... and the *flank group* ... separately.
 
 **Support for the Movement**
 
-> We measured the support for ... the two subgroups with four items each (e.g., “I would participate in a protest of PlanetVeg”).
+> We measured the support for ... the two subgroups with four items each (e.g., “I would participate in a protest of PlanetVeg”), based on the scale of Feinberg and colleagues (2020) regarding both the *main group (PlanetVeg)* ... and the *flank group (SuperGreens)*.
 
 **Sympathy for the Movement’s Cause**
 
-> We operationalized sympathy for the movement’s cause with four items from the New Environmental Paradigm scale ([Dunlap et al., 2000](https://gep.psychopen.eu/index.php/gep/article/download/11121/11121.html?inline=1#r13)). The identical four items ... have already been used in [Schmitt and colleagues (2019)](https://gep.psychopen.eu/index.php/gep/article/download/11121/11121.html?inline=1#r38) (e.g., “Over-consumption is posing a serious risk to humankind and life on planet earth”).
+> We operationalized sympathy for the movement’s cause with four items from the New Environmental Paradigm scale (Dunlap et al., 2000). The identical four items ... have already been used in Schmitt and colleagues (2019) (e.g., “Over-consumption is posing a serious risk to humankind and life on planet earth”).
 
 **Demographic Questionnaire**
 
@@ -84,44 +82,287 @@ I will compute Cohen's d to test if support for the main group systematically va
 
 -   I am dropping the violent main group violent flank condition.
 
--   I am dropping the Instructional Manipulation Checks in favor of a comprehension check.
+-   I am dropping the instructional manipulation checks in favor of a comprehension check.
 
--   I have adjusted formatting of news articles to align with the Study 2 articles because I couldn't find a picture of what Dasch et al.'s (2024) Study 1 articles looked like.
+-   I have adjusted the formatting of the news articles to align with the Study 2 articles because I could not find a picture of Dasch et al.'s (2024) Study 1 articles.
+
+-   I am including an income demographic variable.
 
 ### Methods Addendum (Post Data Collection)
 
-You can comment this section out prior to final report with data collection.
+I did not perform a mediation analysis because the direct effect of condition on support for the main group was not significant.
 
 #### Actual Sample
 
-Sample size, demographics, data exclusions based on rules spelled out in analysis plan
+I recruited 130 US participants using Prolific. After the data exclusions described above, I was left with a final sample of 127 with the following demographic makeup:
+
+-   Mean age: 42
+
+-   Proportion Female: 0.496
+
+-   Proportion employed full-time: 0.614
+
+-   Proportion with a 4-year college degree or more: 0.63
+
+-   Proportion with a yearly income of 80 thousand or more: 0.48
+
+-   Proportion liberal or very liberal: 0.378
+
+-   Proportion conservative or very conservative: 0.268
+
+-   Proportion moderate: 0.173
 
 #### Differences from pre-data collection methods plan
 
-Any differences from what was described as the original plan, or “none”.
+While not preregistered, I dropped participants who spent less than 3 seconds on the non-demographic post-treatment questions. This decision decreased the sample size by one participant and did not meaningfully change the results.
+
+Like Dasch et al.'s (2024), I decided to test if sympathy for the movement’s cause moderated the relationship between the condition and support for the main group.
 
 ## Results
 
 ### Data preparation
 
-Data preparation following the analysis plan.
+```{r, message=FALSE}
+# Loading Packages
+library(tidyverse)
+library(psych)
+library(gridExtra)
+```
+
+```{r}
+# Importing Data
+d <- read_csv("data/anonymized_data- values.csv", 
+              show_col_types = FALSE)
+demos <- read_csv("data/anonymized_data- names.csv", show_col_types = FALSE)
+
+# Rename demo variables
+demos <- demos |> 
+  select(ResponseId, gender, age, employment, education, income, polit_ideology, reside, contains('comprehend')) |> 
+  rename_with(~ paste0(., "_labeled"), -ResponseId)
+
+# Combine datasets
+d <- d |> 
+  left_join(demos, by = 'ResponseId')
+
+# Excluding participants
+
+cat('Total participant count:', NROW(d))
+cat("Didn't consent:", sum(d$consent == 0))
+
+d <- d |> 
+  # Remove participants who didn't consent
+  filter(consent == 1) |> 
+
+  # Remove participants who spent less than 15 seconds on treatment
+  filter((condition == 0 & `nv_text_timing_Page Submit` >= 15) |
+           (condition == 1 & `rad_text_timing_Page Submit` >= 15)) |> 
+  
+  # Remove participants who spent less than 3 seconds on non-demos pages
+  filter(`manip_time_Page Submit` >= 3, 
+         `ident_time_Page Submit` >= 3,
+         `dv_time_Page Submit` >= 3,
+         `sym_time_Page Submit` >= 3) |> 
+
+  # Remove participants who reside in the UK
+  filter(reside_labeled == 'No')
+
+cat('Final sample size:', NROW(d))
+```
+
+```{r}
+d <- d |>
+  # Reverse coding the manipulation check, identification, and support variables so agreement corresponds to larger values than disagreement
+  mutate(across(contains('#'), ~ 8 - .x)) |> 
+  
+  # Creating aggregate variables
+  mutate(
+    main_manipulation_check = (`manipulation_check#1_1` + `manipulation_check#1_2`) / 2,
+    rad_manipulation_check = (`manipulation_check#2_1` + `manipulation_check#2_2`) / 2,
+
+    main_support = (`dv_support#1_1` + `dv_support#1_2` +
+                      `dv_support#1_3` + `dv_support#1_4`) / 4,
+    rad_support = (`dv_support#2_1` + `dv_support#2_2` +
+                      `dv_support#2_3` + `dv_support#2_4`) / 4,
+    
+    # Reverse code the 3rd sympathy question
+    sympathy_3 = 8 - sympathy_3,
+    
+    sympathy = (sympathy_1 + sympathy_2 + sympathy_3 + sympathy_4) / 4,
+    
+    main_identify = (`identification#1_1` + `identification#1_2` + `identification#1_3`) / 3,
+    rad_identify = (`identification#2_1` + `identification#2_2` + `identification#2_3`) / 3
+  )
+```
 
 ### Confirmatory analysis
 
-The analyses as specified in the analysis plan.
+```{r}
+# Plotting Manipulation Checks
+d |>
+  group_by(condition) |>
+  summarize(mean = mean(rad_manipulation_check, na.rm = T),
+            CI_lower = t.test(rad_manipulation_check)$conf.int[1],
+            CI_upper = t.test(rad_manipulation_check)$conf.int[2],
+           .groups = "drop") |>
+  mutate(cond_name = ifelse(condition == 1, "Radical Flank", "Non-Violent")) |>
+  ggplot(aes(x = cond_name, y = mean, fill = cond_name)) +
+  geom_col(width = 0.5) +
+  geom_errorbar(aes(ymin = CI_lower, ymax = CI_upper), position = "dodge", width = 0.2) +
+  labs(y = "Flank Group Perceived as Radical (1-7)", x = 'Condition', title = "Manipulation Check") +
+  guides(fill="none") +
+  theme_bw() +
+  theme(plot.title = element_text(hjust = 0.5)) + 
+  coord_cartesian(ylim = c(NA, 7))
+```
 
-*Side-by-side graph with original graph is ideal here*
+The manipulation worked. Participants in the radical flank condition were significantly more likely to perceive the flank group as violent and radical.
+
+```{r}
+# H1: Support for main group
+h1_cohen <- cohen.d(main_support ~ condition, data = d)
+cat("Support for main group: Cohen's d =", h1_cohen$cohen.d[, 'effect'], 
+    ', p-value = ', h1_cohen$p)
+
+# H2: Identification with main group
+h2_cohen <- cohen.d(main_identify ~ condition, data = d)
+cat("Identification with main group: Cohen's d =", h2_cohen$cohen.d[, 'effect'], 
+    ', p-value = ', h2_cohen$p)
+
+# Does sympathy for the movement moderate support main group?
+lm(main_support ~ condition * sympathy, data = d) |> summary()
+```
+
+```{r}
+# Plotting Replication H1 Effects
+replication_h1_plot <- d |>
+  group_by(condition) |>
+  summarize(mean = mean(main_support, na.rm = T),
+            CI_lower = t.test(main_support)$conf.int[1],
+            CI_upper = t.test(main_support)$conf.int[2],
+           .groups = "drop") |>
+  mutate(cond_name = ifelse(condition == 1, "Radical Flank", "Non-Violent")) |>
+  ggplot(aes(x = cond_name, y = mean, fill = cond_name)) +
+  geom_col(width = 0.5) +
+  geom_errorbar(aes(ymin = CI_lower, ymax = CI_upper), position = "dodge", width = 0.2) +
+  labs(y = "Support for Main Group (1-7)", x = 'Condition', title = "Replication") +
+  guides(fill="none") +
+  theme_bw() +
+  theme(plot.title = element_text(size = 10, hjust = 0.5)) + 
+  coord_cartesian(ylim = c(NA, 7))
+
+# Plotting Original H1 Effects
+original_h1_plot <- tibble(
+  cond_name = c('Non-Violent', 'Radical Flank'),
+  mean = c(3.36, 4.12),
+  CI_lower = c(3.36 - 1.96*1.52/sqrt(165), 4.12 - 1.96*1.50/sqrt(154)),
+  CI_upper = c(3.36 + 1.96*1.52/sqrt(165), 4.12 + 1.96*1.50/sqrt(154))
+) |> 
+  ggplot(aes(x = cond_name, y = mean, fill = cond_name)) +
+  geom_col(width = 0.5) +
+  geom_errorbar(aes(ymin = CI_lower, ymax = CI_upper), position = "dodge", width = 0.2) +
+  labs(y = "Support for Main Group (1-7)", x = 'Condition', title = "Original Study") +
+  guides(fill="none") +
+  theme_bw() +
+  theme(plot.title = element_text(size = 10, hjust = 0.5)) + 
+  coord_cartesian(ylim = c(NA, 7))
+
+grid.arrange(original_h1_plot, replication_h1_plot, 
+             ncol = 2, 
+             top = 'Effect of Condition on Support for Main Group')
+```
+
+Unlike in the original study, the peaceful and radical flank conditions were not significantly different in terms of support for or identification with the main group. Sympathy also did not mediate the effect of the condition on support.
 
 ### Exploratory analyses
 
-Any follow-up analyses desired (not required).
+```{r}
+# Sample demographics
+cat('Mean age:', mean(d$age))
+cat('Prop female:', round(mean(d$gender_labeled == 'Female'), 3))
+cat('Prop employed fulltime:', round(mean(d$employment_labeled == 'Employed full time'), 3))
+cat('Prop 4 yr college+:', round(mean(d$education_labeled %in% 
+                                         c("4 year degree", "Doctorate", 
+                                           "Master's degree", "Professional degree")), 3))
+cat('Prop income 80K+:', round(mean(d$income_labeled %in% 
+                                         c('$80,000 - $99,999', '$100,000 - $149,999', 
+                                           "More than $150,000")), 3))
+cat('Prop liberal or very liberal:', round(mean(d$polit_ideology_labeled %in% 
+                                         c('Liberal', "Very Liberal")), 3))
+cat('Prop conservative or very conservative:', round(mean(d$polit_ideology_labeled %in% 
+                                         c('Conservative', "Very Conservative")), 3))
+cat('Prop moderate:', round(mean(d$polit_ideology_labeled %in% 
+                                         c('Moderate')), 3))
+```
+
+```{r}
+# Check that conditions are demographically balanced
+d |>
+  group_by(condition) |>
+  summarize(
+    mean_age = mean(age, na.rm = TRUE),
+    prop_female = round(mean(gender_labeled == "Female", na.rm = TRUE), 3),
+    prop_fulltime = round(mean(employment_labeled == "Employed full time", na.rm = TRUE), 3),
+    prop_4yr_plus = round(mean(education_labeled %in% 
+                                  c("4 year degree", "Doctorate", 
+                                    "Master's degree", "Professional degree"), na.rm = TRUE), 3),
+    prop_income_80k_plus = round(mean(income_labeled %in%
+                                        c("$80,000 - $99,999", "$100,000 - $149,999", 
+                                          "More than $150,000"), na.rm = TRUE), 3),
+    prop_liberal = round(mean(polit_ideology_labeled %in%
+                                c("Somewhat Liberal", "Liberal", 
+                                  "Very Liberal"), na.rm = TRUE), 3)
+    )
+```
+
+```{r}
+# Confirm that related items are correlated
+d |> select(`manipulation_check#1_1`, `manipulation_check#1_2`) |> cor(use = "complete.obs")
+d |> select(`manipulation_check#2_1`, `manipulation_check#2_2`) |> cor(use = "complete.obs")
+d |> select(`dv_support#1_1`, `dv_support#1_2`, 
+            `dv_support#1_3`, `dv_support#1_4`) |> cor(use = "complete.obs")
+d |> select(`dv_support#2_1`, `dv_support#2_2`, 
+            `dv_support#2_3`, `dv_support#2_4`) |> cor(use = "complete.obs")
+d |> select(`identification#1_1`, `identification#1_2`, 
+            `identification#1_3`) |> cor(use = "complete.obs")
+d |> select(`identification#2_1`, `identification#2_2`, 
+            `identification#2_3`) |> cor(use = "complete.obs")
+d |> select(sympathy_1, sympathy_2, sympathy_3, sympathy_4) |> cor(use = "complete.obs")
+```
+
+```{r}
+# Comprehension check
+d |> 
+  mutate(
+    main_comprehend_only_1_correct =
+      ((condition == 0) & (nv_comprehend_main_labeled %in% c("PlanetVeg held a peaceful demonstration outside the Academy building.", "PlanetVeg sent an email to staff and students asking them to reflect on the effect of the University’s catering on climate change."))) |
+      ((condition == 1) & (rad_comprehend_main_labeled %in% c("PlanetVeg held a peaceful demonstration outside the Academy building.", "PlanetVeg sent an email to staff and students asking them to reflect on the effect of the University’s catering on climate change."))),
+    
+    flank_comprehend_only_1_correct =
+      ((condition == 0) & (nv_comprehend_flank_labeled %in% c("SuperGreens held a peaceful demonstration at the Engineering Faculty building.", "SuperGreens distributed a petition aimed at staff and students."))) |
+      ((condition == 1) & (rad_comprehend_flank_labeled %in% c("SuperGreens organised a demonstration that escalated into violence and caused injury to a security guard.", "SuperGreens distributed a petition and if people refused to sign it, they harassed them."))),
+      ) |> 
+  select(main_comprehend_only_1_correct, flank_comprehend_only_1_correct) |> 
+  lapply(summary)
+  
+```
+
+```{r}
+# Time spend on treatments
+d |>
+  mutate(treatment_time = if_else(condition == 1,
+                                  `rad_text_timing_Page Submit`,
+                                  `nv_text_timing_Page Submit`)) |> 
+  group_by(condition) |> 
+  summarize(deciles = list(quantile(treatment_time, probs = seq(0, 1, 0.1)))) |> 
+  unnest_wider(deciles)
+```
 
 ## Discussion
 
 ### Summary of Replication Attempt
 
-Open the discussion section with a paragraph summarizing the primary result from the confirmatory analysis and the assessment of whether it replicated, partially replicated, or failed to replicate the original result.
+The primary result of interest—the positive effect of reading about a radical flank activist group on support for a moderate main group—failed to replicate. I found no significant difference in support between participants who read a news article about a peaceful main and flank group and those who read about a peaceful main group and a violent flank group. I similarly found that the treatment groups did not differ in their level of identification with the moderate main group of activists.
 
 ### Commentary
 
-Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis, (b) assessment of the meaning of the replication (or not) - e.g., for a failure to replicate, are the differences between original and present study ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the replication attempt. None of these need to be long.
+There are several factors that could plausibly have contributed to the failure to replicate. First, my sample differed from Dasch et al.'s (2024) across several dimensions. Their sample was 68% female, while mine was 50%; theirs was also 48% conservative, while mine was 27%. It may be that their results do not generalize to the people in my sample and vice versa. Second, my sample size was relatively small (127 participants), so the probability that my treatment groups differed in important ways after randomization is higher. For example, by chance, the non-violent condition had 15% more people with at least a 4-year college degree. Perhaps these differences obscured the treatment effect. Third, most participants only selected one option on the comprehension checks, even though the question invited them to “select all actions that apply.” While the single selection was correct most of the time, the failure to select the two correct answers for each comprehension check may indicate an issue with participant attention or understanding. Ultimately, there is significant heterogeneity in the direction and strength of the radical flank effect across the literature. Even in Dasch et al.'s (2024) paper, the second study did not replicate the effect on support for the main group. More work is needed to identify when and how radical flank effects emerge.
